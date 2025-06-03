@@ -1,5 +1,5 @@
 SELECT name, continent, population 
-FROM 'name,continent,
+FROM 'name,continent
 
 SELECT name
 FROM '(continent)'
@@ -10,7 +10,7 @@ FROM countries
 WHERE population >= 200000000;
 
 SELECT name, population / 1000000 AS population_millions
-FROM countries
+FROM countrie
 WHERE continent = 'South America';
 
 fiz ate a 4
