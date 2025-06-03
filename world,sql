@@ -1,8 +1,16 @@
-SELECT name, continent, population FROM 
-'name,continent, area, population;
+SELECT name, continent, population 
+FROM 'name,continent,
 
 SELECT name
 FROM '(continent)'
 WHERE population >= 200000000;
 
-Pro fiz so até 2 
+SELECT name, gdp / population AS per_capita_gdp
+FROM countries
+WHERE population >= 200000000;
+
+SELECT name, population / 1000000 AS population_millions
+FROM countries
+WHERE continent = 'South America';
+
+fiz ate a 4
